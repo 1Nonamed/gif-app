@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { AddCategory } from './components/AddCategory';
-import { GifGrid } from './components/GifGrid';
+import { AddCategory, GifGrid } from './components';
 
 const GifApp = () => {
-  const [categories, setCategories] = useState(['Naruto']);
+  const [categories, setCategories] = useState(['Steins Gate']);
 
   const onAddCategory = (newCategory) => {
     console.log(newCategory);
